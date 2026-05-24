@@ -1,5 +1,6 @@
 services:
   web:
+    build: .
     image: subhan1011/flask-app:latest
     ports:
       - "5000:5000"
